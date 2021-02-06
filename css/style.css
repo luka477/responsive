@@ -17,7 +17,8 @@
 }
 .nav-ul {
 	display: flex;
-	width: 408px;
+	max-width: 408px;
+	width: 100%;
 	justify-content: space-between;
 }
 .navigation {
@@ -82,12 +83,16 @@
 }
 .image-wraper {
 	position: relative;
+	margin-left: 98px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 .text-wraper {
 	position: absolute;
 	max-width: 339px;
 	width: 100%;
-	height: 147px;
+	max-height: 147px;
+	height: 100%;
 	top: 291.2px;
 	left: 128px;
 	font-size: 30px;
@@ -100,9 +105,8 @@
 	margin-top: 114px;
 }
 .img1 {
-	margin-top: 30px;
-	margin-left: 98px;
-	margin-bottom: 30px;
+	max-width: 1170px;
+	width: 100%;
 }
 .secondsection {
 	display: flex;
@@ -135,6 +139,8 @@
 }
 .EMBEDED {
 	font-size: 16.85;
+	max-width: 293px;
+	width: 100%;
 	font-family: 'Roboto', sans-serif;
 }
 .section-3 {
@@ -143,8 +149,10 @@
 }
 .indiv-1 {
 	max-width: 270px;
+	height: 100%;
 	width: 100%;
-	background-color: #E6E6E6;
+	background-color: #E6E6E6; 
+	margin-right: 2px;
 }
 .indivtext {
 	font-size: 22px;
@@ -152,6 +160,8 @@
 	padding-left: 14.1px;
 	padding-bottom: 17px;
 	font-family: 'Roboto', sans-serif;
+	max-width: 186px;
+	width: 100%;
 }
 .div-3 {
 	display: flex;
