@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100;1,300&display=swap');
+.html {
+	margin-top: 20.5px;
+	margin-left: 97.9px;
+	padding-bottom: 20px;
+}
+.header-1 {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 5;
+}
+.nav-ul {
+	display: flex;
+	width: 408px;
+	justify-content: space-between;
+}
+.navigation {
+	margin-left: 103.4px;
+	margin-top:47px;
+}
+.nav-li {
+	font-size: 24px;
+	color: #3D58A6;
+	font-family: 'Roboto', sans-serif;
+}
+.fa-google-plus-g {
+	color: #3D58A6;
+	font-size: 40px;
+}
+.fa-google-plus-g::after{
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 27px;
+	background-color: #363E97;
+	margin-left: 19px;
+}
+.clear {
+	clear: both;
+}
+.logos {
+	display: flex;
+	margin-top: 34px;
+	width: 306px;
+	justify-content: space-between;
+	margin-left: 155.6px;
+}
+.fa-facebook-f {
+	color: #3D58A6;
+	font-size: 33px;
+	padding-top: 5px;
+}
+.fa-facebook-f::after{
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 27px;
+	background-color: #363E97;
+	margin-left: 19px;
+}
+.fa-youtube::after {
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 27px;
+	background-color: #363E97;
+	margin-left: 19px;
+}
+.fa-youtube {
+	color: #3D58A6;
+	font-size: 40px;
+}
+.fa-search {
+	color: red;
+	font-size: 40px;
+}
+.image-wraper {
+	position: relative;
+}
+.text-wraper {
+	position: absolute;
+	max-width: 339px;
+	width: 100%;
+	height: 147px;
+	top: 291.2px;
+	left: 128px;
+	font-size: 30px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.section {
+	background-color: #E6E6E6;
+	width: 100%;
+	margin-top: 114px;
+}
+.img1 {
+	margin-top: 30px;
+	margin-left: 98px;
+	margin-bottom: 30px;
+}
+.secondsection {
+	display: flex;
+	max-width: 1170px;
+	width: 100%;
+	margin-top: 27.8px;
+	margin-left: 99.5px;
+	justify-content: space-between;
+	padding-bottom: 89.6px;
+}
+.smalldiv {
+	max-width: 570px;
+	width: 100%;
+	height: 320px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section-2 {
+	background-color: #363E97;
+	width: 100%
+}
+.sectiontext {
+	font-size: 24px;
+	padding-top: 30px;
+	margin-left: 99.5px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.EMBEDED {
+	font-size: 16.85;
+	font-family: 'Roboto', sans-serif;
+}
+.section-3 {
+	width: 100%;
+	background-color:#BDCCD4;
+}
+.indiv-1 {
+	max-width: 270px;
+	width: 100%;
+	background-color: #E6E6E6;
+}
+.indivtext {
+	font-size: 22px;
+	margin-top: 13.7px;
+	padding-left: 14.1px;
+	padding-bottom: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+.div-3 {
+	display: flex;
+	max-width: 1174px;
+	width: 100%;
+	justify-content: space-between;
+	margin-left: 98px;
+	margin-top: 27.5px;
+	padding-bottom: 90px;
+}
+.section-4 {
+	width: 100%;
+	background-color: #E6E6E6;
+}
+.indiv-2 {
+	display: flex;
+	max-width: 1171px;
+	width: 100%;
+	justify-content: space-between;
+	margin-left: 98px;
+	margin-top: 29.8px;
+	padding-bottom: 30.7px;
+}
+.inindiv {
+	max-width: 570px;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+.ininindiv {
+	max-width: 515px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 38.8px;
+	margin-top: 12.7px;
+}
+.inintext {
+	font-size: 20px;
+	max-width: 355px;
+	width: 100%;
+	padding-top: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+.inintext1 {
+	padding-top: 11.1px;
+	padding-left: 20.8px;
+	font-size: 22px;
+	color: #3D58A6;
+	font-family: 'Roboto', sans-serif;
+}
+.readmore {
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 14.6px;
+	padding-right: 9px;
+	margin-top: 9.1px;
+}
+.lastdiv {
+	max-width: 1174px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 22px;
+	margin-left: 97px;
+	padding-bottom: 21px;
+}
+.lasttext {
+	font-size: 12px;
+}
+.burger-icon {
+	display: none;
+	margin-right: 30px;
+	margin-top: 45px;
+	display: flex;
+	font-size: 30px;
+	display: none;
+} 

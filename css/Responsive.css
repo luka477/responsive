@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+	.navigation {
+		display: none;
+	}
+	.fab {
+		display: none;
+	}
+	.fas {
+		display: none;
+	}
+	.logos {
+		display: none;
+	}
+	.html {
+		padding-left: 150px;
+	}
+	.burger-icon {
+		display: block;
+	}
+	.text-wraper {
+		display: none;
+	}
+	.img1 {
+		height: 200px;
+	}
+}
