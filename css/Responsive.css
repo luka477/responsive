@@ -16,11 +16,55 @@
 	}
 	.burger-icon {
 		display: block;
+		margin-right: 20px;
 	}
 	.text-wraper {
 		display: none;
 	}
 	.img1 {
-		height: 200px;
+		height: 224px;
+	}
+	.secondsection {
+		flex-direction: column;
+	}
+	.smalldiv {
+		margin-top: 10px;
+	}
+	.indiv-1 {
+		margin-top: 20px;
+	}
+	.indiv-2 {
+		flex-direction: column;
+	}
+	.inindiv {
+		margin-top: 20px;
+	}
+
+}
+@media (max-width: 480px;) {
+	.burger-icon {
+		display: block;
+	}
+	.html {
+		display: none;
+	}
+	.img1 {
+		height: 100px;
+	}
+	.smalldiv {
+		width: 150px;
+		height: 50px;
+	}
+	.EMBEDED {
+		font-size: 10px;
+	}
+}
+@media (max-width: 320px) {
+	.html {
+		margin-left: 10px;
+	}
+	.img1 {
+		height: 120px;
+		margin-left: 20px;
 	}
 }
